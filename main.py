@@ -1,4 +1,4 @@
-#Dynamic Expense Tracker 
+# Expense Tracker 
 
 def main():
 
