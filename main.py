@@ -10,7 +10,6 @@ def main():
         "others": 0.0
     }
     
-    # Total daily expenses
     total_expenses = 0.0
     
     print("Daily Expense Tracker")
@@ -25,8 +24,8 @@ def main():
         if user_input == "exit":
             break
         elif user_input == "summary":
-            # Display summary
-            print("\nExpense Summary:")
+            
+            print("\nExpense Summary:")     #  display total expense 
             print("----------------")
             if total_expenses == 0:
                 print("No expenses added yet.")
@@ -52,5 +51,5 @@ def main():
 
     print("\nThank you for using the Daily Expense Tracker!")
 
-# Run the program
+# call function
 main()
