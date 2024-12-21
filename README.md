@@ -1,1 +1,1 @@
-Daynamic Expense Tracker made with Python 
+# Daynamic Expense Tracker made with Python 
